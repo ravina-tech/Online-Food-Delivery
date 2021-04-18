@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  body{
+    background-image: url("food5.jpg");
+  height: 100%;
+  width: 100%;
+  
+  background-size: cover;
+  color: Black;
+  font-family: "sans-serif";
+  font-size: 30px;
+  }
+  input[type=submit] {
+    padding:5px 15px; 
+    background:Red; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
+.main
+{
+	text-align : center;	
+}
+.container
+{
+  color: blue;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+input[type=number], input[type=text],input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+   }
+button:hover {
+  opacity: 0.8;
+}
+  }
+  
+</style>
+</head>
+<body>
+<form action="AddFood" method="post" 
+ enctype="multipart/form-data">
+<div class="bgimg"></div>
+
+
+<div class="main">
+<h3> Add New Item</h3>
+Food id<input type = "number" name = "id"/><br>
+Food Name<input type = "text" name = "name"/><br>
+Food price<input type = "number" name = "price"/><br><br>
+Food Image<input type="file" name = "image">
+</div>
+<div class="container" >
+<input type = "submit" value = "Add Food"/>
+</form>
+</div>
+
+
+</body>
+</html>

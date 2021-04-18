@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body
+{
+	background-image : url("f8.jpg");
+	height: 100%;
+  	width: 100%;
+  	background-size: cover;
+  	color: Black;
+  	font-family: "sans-serif";
+  	font-size: 30px;
+}
+input[type=submit] {
+    padding:6px 16px; 
+    background:Red; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; 
+  }
+ input[type=number]{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+   }
+.main
+{
+	text-align : center;
+	 margin: 150px auto 0 auto;
+}
+</style>
+</head>
+<body>
+<form action ="DeleteFood">
+<div class = main>
+<h3>Delete Food From Menu</h3>
+ Food Id<input type = "number" name = "id" /><br>
+<input type ="submit" value ="DELETE"/>
+</form>
+</div>
+
+</body>
+</html>
